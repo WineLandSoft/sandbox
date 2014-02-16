@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "_default": {
+            "link": "sandbox"
+        }, 
+        "sandbox": {
+            "applicationId": "oCCuj30u6ioRVSblikwOaCNYGYGxU94vtkYKpyg7", 
+            "masterKey": "xrn5rUCZFhlOTE86Xo81njqhYyH3EPUeeuM02p5G"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.16"
+    }
+}
