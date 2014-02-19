@@ -4,9 +4,33 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@android:id/edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/funcion"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/llamar_funcion"
+            android:onClick="llamarFuncion" />
+
+    </LinearLayout>
+
     <TextView
+        android:id="@android:id/text1"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

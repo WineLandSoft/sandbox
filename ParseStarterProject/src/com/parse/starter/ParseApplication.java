@@ -22,7 +22,6 @@ public class ParseApplication extends Application {
 		// Add your initialization code here
 		Parse.initialize(this, "oCCuj30u6ioRVSblikwOaCNYGYGxU94vtkYKpyg7", "OxyQlcfgMNxDPyBkbHNxjG7BNtghE6ZDJNRhm5On");
 
-
 		ParseUser.enableAutomaticUser();
 		ParseACL defaultACL = new ParseACL();
 	    
@@ -30,15 +29,6 @@ public class ParseApplication extends Application {
 		defaultACL.setPublicReadAccess(true);
 		
 		ParseACL.setDefaultACL(defaultACL, true);
-		
-		ParseCloud.callFunctionInBackground("prueba", new HashMap<String, Object>(), new FunctionCallback<String>() {			  
-			@Override
-			public void done(String object, ParseException e) {
-				if (e == null) {
-			      Toast.makeText(ParseApplication.this,  object,  Toast.LENGTH_SHORT).show();
-			    }				
-			}
-		});
 	}
 
 }

@@ -213,3 +213,4 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+ParseStarterProject/gen/com/parse/starter/R.java
