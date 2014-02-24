@@ -1,0 +1,3 @@
+nuevo fichero de texto.
+Lo utilizaremos para probar merges, conflictos y demás problematicas.
+Suerte chatos!!
