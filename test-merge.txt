@@ -1,8 +1,10 @@
 nuevo fichero de texto.
-Lo utilizaremos para probar merges, conflictos y demás problematicas.
+Lo utilizaremos para probar merges, conflictos y demï¿½s problematicas.
 Suerte chatos!!
 
-esta linea puede ser un problema
+esta linea puede ser un problema,varios
 
 nueva frase
 nueva frase 2
+
+estamos listos
